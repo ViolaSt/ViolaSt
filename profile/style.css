@@ -1,0 +1,93 @@
+body {
+  background-color: #171814;
+  color: #7d7d7d;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+
+h1, h2, h3 {
+  color: ;
+
+}
+h4{
+  font-weight: bold;
+  color: #121212;
+  font-size: 24px;
+  text-align: center;
+}
+
+a {
+  color: #626065;
+}
+
+a:hover {
+  color: #363636;
+}
+
+a:visited {
+  color: black;
+}
+
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+.container {
+  width: 800px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius:5px;
+  padding: 20px;
+  margin: 50px;display: block;
+}
+
+#centered_picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+
+.text_centered {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-red {
+   background-color: #5E0000 ;
+   color: white;
+   font-weight: 500;
+   padding: 8px;
+   border-radius: 4px;
+   text-decoration: none;
+}
+.btn-red:hover {
+  color: #FFFFFF ;
+}
+
+.btn-red:visited {
+  color: #FFFFFF ;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
